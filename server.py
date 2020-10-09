@@ -9,4 +9,5 @@ main.mount("/assets/blog", StaticFiles(directory="./assets/blog"),
 main.mount("/assets/admin", StaticFiles(directory="./assets/admin"),
            name="admin-assets")
 
+
 main.mount("/admin", admin_app.app)
